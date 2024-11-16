@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "young-serif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "outfit";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+main {
+  background-color: #ffe4e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 0;
+}
+.container {
+  width: 50%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 4.2rem 4.2rem 2rem 4.2rem;
+  border-radius: 26px;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
+}
+@media (max-width: 768px) {
+  main{
+    padding: 0rem;
+  }
+  .container{
+    width: 100%;
+  }
+}
+img{
+  width: 100%;
+  height:auto;
+  display: block;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+h1{
+  font-size: 4rem;
+  padding:3rem 0 2.2rem 0;
+}
+.common-text{
+  font-size:1.6rem;
+  line-height: 1.5;
+}
+.prepare{
+  padding: 2.2rem 2rem;
+  background-color:  hsl(330, 100%, 98%);
+  margin-top:2.5rem;
+}
+h2{
+  font-size: 2.1rem;
+  color: hsl(332, 51%, 32%);
+}
+ul{
+  padding-left: 3.6rem;
+  padding-top: 1rem;
+}
+
+ul li,ol li{
+  padding-left: 1rem;
+}
+.boldpoint{
+  font-weight: 900;
+  color: hsl(24, 5%, 18%);
+}
+.common-div{
+  padding: 2.4rem 0 1.8rem 0;
+}
+.common-heading{
+  font-size:2.8rem;
+  color: hsl(14, 45%, 36%);
+  font-weight: 900;
+}
+hr{
+  border-color:  hsl(30, 18%, 87%);
+}
+
+.Instructions ol li::marker {
+  color:hsl(14, 45%, 36%); 
+}
+ol{
+  padding-left: 2.4rem;
+  padding-top: 1rem;
+}
+.Nutrition .common-text{
+  padding-top: 1.4rem;
+  padding-bottom: 0.4rem;
+}
+.nutrition-table-div{
+  display: flex;
+  align-items: center;
+}
+.w{
+  width:50%;
+  padding-bottom: 0.4rem;
+}
+.nutrition-table-div .boldpoint{
+  color: hsl(14, 45%, 36%);
+}
+.nutrition-table-div p{
+  padding-left: 3rem;
+}
